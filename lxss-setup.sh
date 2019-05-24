@@ -1,8 +1,7 @@
 #!/bin/sh
 
-apt update -y
-apt upgrade -y
-cd
-mkdir /mnt/c/linux
-echo "cd /mnt/c/linux" >> ~/.bashrc
-echo "export DISPLAY=:0.0" >> ~/.bashrc
+cd /root || exit
+apt update -y && apt upgrade -y
+mkdir -p /mnt/c/linux
+echo "cd /mnt/c/linux" >> /root/.bashrc
+echo "export DISPLAY=:0.0" >> /root/.bashrc
