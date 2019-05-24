@@ -1,7 +1,7 @@
 #!/bin/sh
 
-apt-get -y update
-apt-get -y upgrade
+apt update -y
+apt upgrade -y
 cd
 mkdir /mnt/c/linux
 echo "cd /mnt/c/linux" >> ~/.bashrc
