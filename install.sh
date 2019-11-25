@@ -2,6 +2,7 @@
 
 apt install -y xorg openbox # X11 window manager
 apt install -y gcc g++ gnat-8 # c, c++, ada, others
+apt install -y gnuplot-x11
 apt install -y python3 python3-tk # python
 apt install pythonpy
 apt install python-pip
